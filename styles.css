@@ -38,3 +38,15 @@ body {
   font-family: "Norse-Bold";
   font-size: 3.5rem;
 }
+
+
+.right-side {
+  width: 63vw;
+}
+
+.intro-text {
+  font-family: sans-serif;
+  font-weight: bold;
+  margin: 15vh 9vw 0 3vw;
+  font-size: 0.9rem;
+}
