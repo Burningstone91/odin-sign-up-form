@@ -15,9 +15,11 @@ body {
 }
 
 
+
+
 .left-side {
   background-image: url(./background.avif);
-  background-size: 130%;
+  background-size: auto;
   background-repeat: no-repeat;
   background-position: center;
   width: 37vw;
@@ -29,19 +31,21 @@ body {
   align-items: center;
   margin-top: 20vh;
   background: rgb(0, 0, 0, 0.5);
-  padding: 5px;
   height: 13vh;
 }
 
 .odin-logo {
   height: 13vh;
+  padding:5px;
 }
 
 .logo-container > h1 {
   color: white;
   font-family: "Norse-Bold";
-  font-size: 3.5rem;
+  font-size: 9vh;
 }
+
+
 
 
 .right-side {
@@ -51,20 +55,20 @@ body {
 .intro-text {
   font-family: sans-serif;
   font-weight: bold;
-  margin: 15vh 9vw 0 3.5vw;
-  font-size: 0.9rem;
+  margin: 14vh 9vw 5vh 3.5vw;
+  font-size: 1.5rem;
 }
 
 .sign-up-form {
-  margin-left: 3.5vw;
-  margin-right: 9vw;
+  padding: 2vh 0 4vh 3.5vw;
+  box-shadow: 0 10px 20px -2px rgb(22, 22, 22);
 }
 
 form {
   display: flex;
+  margin-top: 2vh;
   gap: 20px;
   flex-wrap: wrap;
-
 }
 
 .input {
@@ -94,10 +98,11 @@ input:focus {
 
 .submit {
   margin-left: 3.5vw;
-  margin-top: 20px;
+  margin-top: 4vh;
+  font-size: 1.2rem;
 }
 
-button {
+.submit > button {
   background-color: #596D48;
   color: white;
   font-size: 1.1rem;
@@ -106,4 +111,10 @@ button {
   height: 45px;
   border-radius: 8px;
   border-style: none;
+  margin-bottom: 3vh;
+}
+
+a {
+  color: #596D48;
+  font-weight: bold;
 }
